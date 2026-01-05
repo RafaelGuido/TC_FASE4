@@ -1,0 +1,4 @@
+opencv-python>=4.5.5
+numpy>=1.21.0
+fer>=0.11.2 # Biblioteca de Reconhecimento de Emoções Faciais
+ultralytics>=8.0.0 # Modelo YOLOv8 para Detecção de Atividades
