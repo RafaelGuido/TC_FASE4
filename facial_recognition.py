@@ -36,7 +36,7 @@ except ImportError:
 
 emotion_detector = FER(mtcnn=True)
 FRAME_SKIP_EMOTION = 5 # Analisa emoção a cada 5 quadros
-FRAME_SKIP_ACTIVITY = 10 # Analisa atividade a cada 15 quadros (é mais pesado processar)
+FRAME_SKIP_ACTIVITY = 10 # Analisa atividade a cada 10 quadros (é mais pesado processar)
 
 
 def analyze_video_data(video_path="Unlocking Facial Recognition_ Diverse Activities Analysis.mp4"):
